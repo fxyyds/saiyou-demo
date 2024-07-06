@@ -1,0 +1,77 @@
+
+.text-cyan-750 {
+    color: #0a8080;
+}
+
+.hover_text-cyan-850:hover {
+    color: #005961;
+}
+
+.border-cyan-750 {
+    border-color: #0a8080;
+}
+
+input {
+    outline: none;
+}
+
+.dwo {
+    font-size: 0.875rem;
+}
+
+body {
+    background-color: #fbfafa;
+}
+
+.dowebok .lg-bg-1 {
+    left: -400px;
+    top: 70px
+}
+
+.dowebok .lg-bg-2 {
+    right: -375px;
+    top: 144px
+}
+
+.dwo .ipt {
+    background-color: #f4f4f3;
+}
+
+.dwo .ipt:focus {
+    background-color: #f7fcfc;
+}
+
+.dwo .ipt-line {
+    border-bottom: 1px solid #6c6c72;
+}
+
+.dwo .ipt:focus ~ .ipt-line {
+    border-bottom-width: 3px;
+    border-color: #0a8080;
+    animation: dwo 0.2s ease-in-out;
+}
+
+.ipt-wrap {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.dwo .btn-login {
+    background-color: #0a8080;
+}
+
+.dwo .btn-login:hover {
+    background-color: #005961;
+}
+
+@keyframes dwo {
+    from {
+        transform: scaleX(0.7);
+    }
+    to {
+        transform: scaleX(1);
+    }
+}
+.card-tabs .n-tabs-nav--bar-type {
+    padding-left: 4px;
+}
